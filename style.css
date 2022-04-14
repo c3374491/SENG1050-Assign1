@@ -1,0 +1,65 @@
+/*
+style.css
+Ethan Davey
+15/09/2021
+*/
+
+body{ /* Styling for the body element of the page */
+    background-image: url("images/background.jpg"); /* Sets the background image */
+    background-attachment: fixed; /* Stops the background from moving when scrolling on the page */
+    background-size: auto 100%; /* Sets the background image to resize based on the height of the window */
+    /* Source = https://www.pexels.com/photo/black-sand-dunes-2387793/ */
+    margin-left: 1cm; /* Creates a 1cm left margin */
+    color: rgb(225, 225, 225); /* Sets the colour of the text in the body */
+}
+
+header{
+    text-align: center; /* Sets the text to align in the center */
+}
+
+a{
+    color: blue; /* Sets the colour of the link to blue as default */
+    font-size: 35px; /* Sets the size of the font to 35px */
+    margin: 20px; /* Sets the margin of the link to be 20px */
+}
+a:hover{
+    color: green; /* Sets the colour of the link to green when hovered */
+    font-size: 50px; /* Sets the size of the font to 50px when hovered */
+}
+a:visited{
+    color: red; /* Sets the colour of the link to green when visited */
+}
+
+h1{
+    text-align: center; /* Sets the text to align in the center */
+    font-size: 55px; /* Sets the size of the font to 55px */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Sets the font to be a specific style */
+    text-transform: uppercase; /* Sets the text to be uppercase */
+}
+
+h2{
+    text-decoration: underline; /* Gives the text and underline */
+    text-transform: uppercase; /* Sets the text to be uppercase */
+}
+
+#welcomeParagraph{
+    font-size: 20px; /* Sets the size of the font to 20px */
+}
+
+img{
+    width: 100%; /* Sets the width to as wide as the window is */
+    border: 3px white solid; /* Sets a border on the element */
+    float: left; /* Floats the element left */
+}
+
+.bitLink{
+    font-size: 15px; /* Sets the size of the font to 15px */
+    margin: auto; /* Forces the margin to be set automatically */
+}
+.bitLink:hover{
+    font-size: 15px; /* Sets the size of the font to 15px */
+}
+
+footer{
+    float: right; /* Floats the element right */
+}
